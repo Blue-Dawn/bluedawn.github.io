@@ -49,20 +49,24 @@
         color: #34f5c5;
       }
       .main-title {
-        white-space: nowrap;
-        font-size: 3vw;
+        font-size: 4em;
         letter-spacing: 0.15em;
       }
       .lead {
-        font-size: 1.3rem;
+        font-size: 1.3em;
         font-weight: 400;
+      }
+      @media screen and (max-width: 601px) {
+        .main-title {
+          font-size: 2em;
+        }
+        .lead {
+          font-size: 1em;
+        }
       }
     </style>
 
-    <link
-      href="./assets/css/style.css"
-      rel="stylesheet"
-    />
+    <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
