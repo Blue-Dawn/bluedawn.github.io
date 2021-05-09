@@ -37,19 +37,6 @@
     <meta name="theme-color" content="#7952b3" />
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
       body {
         background: url("./assets/img/background.png") no-repeat center center
           fixed;
@@ -58,17 +45,41 @@
         -o-background-size: cover;
         background-size: cover;
       }
+      main {
+        color: #34f5c5;
+      }
+      .main-title {
+        white-space: nowrap;
+        font-size: 5rem;
+        letter-spacing: 0.15em;
+      }
+      .lead {
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
     </style>
 
     <link
-      href="https://getbootstrap.com/docs/5.0/examples/cover/cover.css"
+      href="./assets/css/style.css"
       rel="stylesheet"
     />
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto"></header>
-      <main class="px-3"></main>
+      <img
+        src="assets/img/logo.png"
+        class="mx-auto img-fluid"
+        alt="Logo"
+        style="max-width: 55%; width: 50%"
+      />
+      <main class="px-3">
+        <p class="main-title">BLUE DAWN</p>
+        <p class="lead">
+          Welcome to Blue Dawn. Our mission is simple. We aim to bring low-cost,
+          high-accuracy avionics platforms too all model rocket enthusiasts.
+        </p>
+      </main>
       <footer class="mt-auto text-white-50">
         <p>
           &copy; 2021 Blue Dawn Avionics &mdash;
